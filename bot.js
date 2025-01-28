@@ -1,3 +1,4 @@
+const keep_alive = require('./keep_alive.js')
 const { uniqueNamesGenerator, adjectives, colors, animals } = require('unique-names-generator');
 const fs = require('fs');
 const parseDuration = require('parse-duration')
